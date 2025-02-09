@@ -1,4 +1,4 @@
-let b:current_syntaxtax='odin'
+let b:current_syntax='odin'
 set commentstring=//\ %s
 
 syntax keyword odinKeyword
