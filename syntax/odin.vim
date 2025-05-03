@@ -38,7 +38,7 @@ syntax region odinBlockComment start=/\/\*/ end=/\*\// contains=@Spell,odinBlock
 
 syntax match odinEnumValue '[^\W.]\zs\.\w\+\ze'
 
-syntax match odinStructLiteral '\v\zs\i+\ze(\(.{-}\))?\s*\{'
+syntax match odinStructLiteral '\v\zs\i+\ze(\(.{-}\))?\{'
 
 syntax match odinTypeSpec '\v:\s*\zs\i+\ze'
 
