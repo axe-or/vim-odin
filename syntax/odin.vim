@@ -2,7 +2,7 @@ let b:current_syntax='odin'
 set commentstring=//\ %s
 
 syntax keyword odinKeyword
-  \ defer if else for in not_in break continue switch case
+  \ defer if else for in not_in break continue switch case return
   \ or_break or_else or_continue or_return
   \ proc struct union enum distinct dynamic map bit_set bit_field
   \ transmute cast inline no_inline type_of size_of align_of
